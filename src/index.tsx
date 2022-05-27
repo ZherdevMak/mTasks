@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import TaskMap from "./Map/TaskMap";
 import MicroTaskButton from "./Button/MicroTaskButton";
 import UseState from "./useState/useState";
+import FilterState from "./Filter/FilterState";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <UseState />
+    <FilterState />
   </React.StrictMode>
 );
 
