@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TaskMap from "./Map/TaskMap";
 import MicroTaskButton from "./Button/MicroTaskButton";
+import UseState from "./useState/useState";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <MicroTaskButton />
+    <UseState />
   </React.StrictMode>
 );
 
