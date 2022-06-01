@@ -9,7 +9,7 @@ function MicroTaskButton() {
     // const OnClickHandler = (name:string) => {
     //     console.log(name)
 // }
-    const buttonFoo1 = (subscriber: string, age:number,addres:string) => {
+    const buttonFoo1 = (subscriber: string, age: number, addres: string) => {
         console.log(subscriber, age, addres)
     }
     const buttonFoo2 = (subscriber: string) => {

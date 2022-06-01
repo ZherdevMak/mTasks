@@ -7,14 +7,15 @@ import TaskMap from "./Map/TaskMap";
 import MicroTaskButton from "./Button/MicroTaskButton";
 import UseState from "./useState/useState";
 import FilterState from "./Filter/FilterState";
+import Input from "./Input/Input";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <FilterState />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Input/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

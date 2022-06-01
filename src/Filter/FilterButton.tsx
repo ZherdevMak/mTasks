@@ -1,5 +1,6 @@
 import React from 'react';
 import {FilterType} from "./FilterState";
+
 type ArrType = {
     money: ObFromArrType[]
     function: (newButton: FilterType) => void
@@ -17,7 +18,7 @@ function FilterButton(props: ArrType) {
             <ul>
                 {props.money.map((obj, index: number) => {
                     return (
-                        <li key = {index}><span>{obj.banknots}</span>
+                        <li key={index}><span>{obj.banknots}</span>
                             <span>{obj.value}</span>
                             <span>{obj.number}</span>
                         </li>
